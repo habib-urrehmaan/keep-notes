@@ -1,0 +1,23 @@
+.body {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form, .notes {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.notes {
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.note-input {
+  flex: 1;
+}

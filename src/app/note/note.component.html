@@ -1,0 +1,2 @@
+<div  *ngIf="note; else emptyMessage"><mat-card class="note"><div>{{ note.description }}</div><button mat-button color="warn" (click)="onDelete(note.id)"><mat-icon>delete</mat-icon></button></mat-card></div>
+<ng-template #emptyMessage>No notes to show</ng-template>
